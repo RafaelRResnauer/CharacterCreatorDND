@@ -1,14 +1,19 @@
 package character;
 
+import character.classes.GenericClass;
+
 public class PlayerChar {
+    // Basic info
     private String name;
+    private String gender;
     private Race race;
-    private CharClass charClass;
+    private GenericClass genericClass;
     private Background background;
     private Alignment alignment;
     private String playerName;
     private int xp;
 
+    // Ability scores
     private int strength;
     private int strengthMod;
     private int dexterity;
@@ -22,9 +27,11 @@ public class PlayerChar {
     private int charisma;
     private int charismaMod;
 
+    // Extra values
     private boolean inspiration;
     private int proficiencyBonus;
 
+    // Saves
     private int strengthSave;
     private int dexteritySave;
     private int constitutionSave;
@@ -32,6 +39,7 @@ public class PlayerChar {
     private int wisdomSave;
     private int charismaSave;
 
+    // Skills
     private int acrobatics;
     private int animalHandling;
     private int arcana;
@@ -52,19 +60,19 @@ public class PlayerChar {
     private int survival;
     private int passiveWisdom;
 
+    // Battle values
     private int ac;
     private int initiative;
     private int speed;
 
+    //Health
     private int hpTotal;
     private int hpCurrent;
     private int hpTemp;
 
+    // Hit dice
     private String hitDiceType;
     private int hitDiceTotal;
     private int hitDiceCurrent;
-
-
-
 
 }
