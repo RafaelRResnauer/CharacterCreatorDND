@@ -40,7 +40,4 @@ public class PlayerChar {
 
     // Proficiencies and languages
 
-    // Spellcasting
-    private Spellcasting spellcasting;
-
 }
