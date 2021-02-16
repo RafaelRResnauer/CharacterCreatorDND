@@ -1,4 +1,4 @@
 package character.backgrounds;
 
-public class GenericBackground {
+public abstract class GenericBackground {
 }

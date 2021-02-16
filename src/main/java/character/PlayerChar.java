@@ -6,6 +6,7 @@ import character.races.main_races.GenericRace;
 
 public class PlayerChar {
     // Basic info
+    private int level;
     private String name;
     private String gender;
     private GenericRace genericRace;
@@ -30,14 +31,16 @@ public class PlayerChar {
     private int initiative;
     private int speed;
 
-    //Health
-    private int hpTotal;
-    private int hpCurrent;
-    private int hpTemp;
+    // Health
+    private Health health;
 
-    // Hit dice
-    private String hitDiceType;
-    private int hitDiceTotal;
-    private int hitDiceCurrent;
+    // Equipment
+
+    // Features
+
+    // Proficiencies and languages
+
+    // Spellcasting
+    private Spellcasting spellcasting;
 
 }
