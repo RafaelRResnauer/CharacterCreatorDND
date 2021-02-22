@@ -44,7 +44,10 @@ public class PlayerChar {
     // Features
     private List<Features> featuresList;
 
-    // Proficiencies and languages
+    // Proficiencies
     private List<Proficiency> proficiencyList;
+
+    // Languages
+    private Languages languages;
 
 }
