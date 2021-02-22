@@ -2,7 +2,10 @@ package character;
 
 import character.backgrounds.GenericBackground;
 import character.classes.GenericClass;
+import character.item.Items;
 import character.races.main_races.GenericRace;
+
+import java.util.List;
 
 public class PlayerChar {
     // Basic info
@@ -35,6 +38,7 @@ public class PlayerChar {
     private Health health;
 
     // Equipment
+    private List<Items> itemsList;
 
     // Features
 
