@@ -17,6 +17,7 @@ public class PlayerChar {
     private GenericBackground genericBackground;
     private Alignment alignment;
     private String playerName;
+    private int maxWeight;
     private int xp;
 
     // Ability Scores
@@ -41,7 +42,9 @@ public class PlayerChar {
     private List<Items> itemsList;
 
     // Features
+    private List<Features> featuresList;
 
     // Proficiencies and languages
+    private List<Proficiency> proficiencyList;
 
 }

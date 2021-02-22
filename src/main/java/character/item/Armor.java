@@ -22,4 +22,44 @@ public class Armor extends Items{
             this.ac = acBase;
         }
     }
+
+    public int getAcBase() {
+        return acBase;
+    }
+
+    public void setAcBase(int acBase) {
+        this.acBase = acBase;
+    }
+
+    public int getAc() {
+        return ac;
+    }
+
+    public void setAc(int ac) {
+        this.ac = ac;
+    }
+
+    public boolean isDexToggle() {
+        return dexToggle;
+    }
+
+    public void setDexToggle(boolean dexToggle) {
+        this.dexToggle = dexToggle;
+    }
+
+    public String getAc_description() {
+        return ac_description;
+    }
+
+    public void setAc_description(String ac_description) {
+        this.ac_description = ac_description;
+    }
+
+    public String getStrength_req() {
+        return strength_req;
+    }
+
+    public void setStrength_req(String strength_req) {
+        this.strength_req = strength_req;
+    }
 }
