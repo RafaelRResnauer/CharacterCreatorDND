@@ -2,10 +2,14 @@ package character;
 
 import character.backgrounds.GenericBackground;
 import character.classes.GenericClass;
+import character.item.Items;
 import character.races.main_races.GenericRace;
+
+import java.util.List;
 
 public class PlayerChar {
     // Basic info
+    private int level;
     private String name;
     private String gender;
     private GenericRace genericRace;
@@ -13,6 +17,7 @@ public class PlayerChar {
     private GenericBackground genericBackground;
     private Alignment alignment;
     private String playerName;
+    private int maxWeight;
     private int xp;
 
     // Ability Scores
@@ -30,14 +35,19 @@ public class PlayerChar {
     private int initiative;
     private int speed;
 
-    //Health
-    private int hpTotal;
-    private int hpCurrent;
-    private int hpTemp;
+    // Health
+    private Health health;
 
-    // Hit dice
-    private String hitDiceType;
-    private int hitDiceTotal;
-    private int hitDiceCurrent;
+    // Equipment
+    private List<Items> itemsList;
+
+    // Features
+    private List<Features> featuresList;
+
+    // Proficiencies
+    private List<Proficiency> proficiencyList;
+
+    // Languages
+    private Languages languages;
 
 }
