@@ -3,7 +3,7 @@ package character;
 import character.backgrounds.GenericBackground;
 import character.classes.GenericClass;
 import character.item.Items;
-import character.races.main_races.GenericRace;
+import character.races.GenericRace;
 
 import java.util.List;
 
@@ -33,21 +33,10 @@ public class PlayerChar {
     // Battle values
     private int ac;
     private int initiative;
-    private int speed;
 
     // Health
     private Health health;
 
     // Equipment
     private List<Items> itemsList;
-
-    // Features
-    private List<Features> featuresList;
-
-    // Proficiencies
-    private List<Proficiency> proficiencyList;
-
-    // Languages
-    private Languages languages;
-
 }
