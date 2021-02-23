@@ -27,16 +27,10 @@ public class PlayerChar {
     private boolean inspiration;
     private int proficiencyBonus;
 
-    // Skills
-    private Skills skills;
-
     // Battle values
     private int ac;
     private int initiative;
 
     // Health
     private Health health;
-
-    // Equipment
-    private List<Items> itemsList;
 }

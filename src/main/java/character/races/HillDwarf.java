@@ -8,7 +8,7 @@ public class HillDwarf extends GenericRace {
     private List<String> proficiencyList;
     private List<Features> featuresList;
 
-    public HillDwarf() {
+    public HillDwarf(String tool) {
         setScoreIncreases(2,2);
         setSize(Size.Medium);
         setSpeed(30);
@@ -26,7 +26,7 @@ public class HillDwarf extends GenericRace {
                 considered proficient in the History skill and add
                 double your proficiency bonus to the check, instead
                 of your normal proficiency bonus."""));
-        proficiencyList.add("Tool Proficiency");
+        proficiencyList.add(tool);
         getLanguages().add("Common");
         getLanguages().add("Dwarvish");
 
