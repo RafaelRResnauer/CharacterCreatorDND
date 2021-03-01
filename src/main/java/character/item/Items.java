@@ -1,16 +1,26 @@
 package character.item;
 
 public class Items {
+    private int number;
     private String name;
     private String description;
     private String price;
     private float weight;
 
-    public Items(String name, String description, String price, float weight) {
+    public Items(int number, String name, String description, String price, float weight) {
+        this.number = number;
         this.name = name;
         this.description = description;
         this.price = price;
         this.weight = weight;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     public String getName() {

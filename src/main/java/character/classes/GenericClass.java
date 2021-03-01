@@ -11,5 +11,4 @@ public abstract class GenericClass {
     private Skills skills;
     private List<Items> itemsList;
     private List<Features> featuresList;
-
 }
