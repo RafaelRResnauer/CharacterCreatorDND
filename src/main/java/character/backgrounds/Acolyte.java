@@ -11,6 +11,6 @@ public class Acolyte extends GenericBackground{
         this.getSkills().setReligion(true);
         languages.add(language1);
         languages.add(language2);
-        this.getItemsList().add(new Items(1,"Holy Simbol", "A gift from when you entered priesthood","10gp", 1.00f));
+        this.getItemsList().add(new Items(1,"Holy Symbol", "A gift from when you entered priesthood","10gp", 1.00f));
     }
 }

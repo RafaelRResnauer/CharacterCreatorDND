@@ -7,8 +7,8 @@ public class Armor extends Items{
     private String ac_description;
     private String strength_req;
 
-    public Armor(String name, String description, String price, float weight, int acBase, boolean dexToggle, String ac_description, String strength_req) {
-        super(name, description, price, weight);
+    public Armor(int number, String name, String description, String price, float weight, int acBase, boolean dexToggle, String ac_description, String strength_req) {
+        super(number, name, description, price, weight);
         this.acBase = acBase;
         this.dexToggle = dexToggle;
         this.ac_description = ac_description;
