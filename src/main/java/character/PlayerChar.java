@@ -31,6 +31,4 @@ public class PlayerChar {
     private int ac;
     private int initiative;
 
-    // Health
-    private Health health;
 }
